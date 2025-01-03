@@ -1,0 +1,93 @@
+/* style.scss */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#container,
+#listContainer {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #1a1a1a;
+}
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+form input:focus,
+form select:focus,
+form button:focus {
+  border-color: #92cf94;
+  outline: none;
+}
+form button {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: #3d8b40;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+table th:nth-child(odd),
+table td:nth-child(odd) {
+  background-color: white;
+}
+table th {
+  background-color: #fcfefc;
+  color: black;
+}
+
+#newProductButton {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#newProductButton:hover {
+  background-color: #3d8b40;
+}/*# sourceMappingURL=style.css.map */
